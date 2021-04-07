@@ -1,0 +1,19 @@
+Visual studio code, herramienta a utilizar durante la cursada. Permite organizar carpetas y archivos
+al igual que se ven en el explorador de archivos de la interfaz visual.
+Shortcuts:
+Nuevo archivo: Crt N
+Abrir archivo: Crt O
+Guardar archivo: Crt S
+Guardar como: Crt Shift S
+Buscar en el archivo: Crt F
+Buscar y reemplazar en el archivo: Crt H
+Abrir terminal: Crt Ñ (Crt ;)
+
+La terminal: programa presente en todos los sistemas operativos, permite darle ordenes al sistema
+sin el uso de la interfaz visual. Crear carpetas, archivos, moverlos, eliminarlos, renombrar, todo
+esto con el uso de comandos.
+Comandos: Ordenes las cuales la terminal interpreta y ejecuta.
+Comandos basicos: ls (lista) - dir (directories o carpetas) - cd (change directory, cambiar directorio)
+rm (remove, eliminar archivo) - mv (move, cambiar el nombre del archivo) - clear(limpiar terminal)
+mkdir (make directory, crear carpeta) - touch (crear archivo dependiendo de la extension que le demos)
+pwd (print working directory, indica que directorio nos encontramos)

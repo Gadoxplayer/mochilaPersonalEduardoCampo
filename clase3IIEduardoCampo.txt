@@ -1,0 +1,15 @@
+Introduccion a GIT:
+Software de control de versiones, permite backup de versiones, compartir versiones y archivos de 
+codigo fuente.
+
+Crenado el primer repositorio:
+Codigos utlizados:
+   git init // crea el repositorio
+   git config user.name "nombre de usuario" // agrega nuestra identidad
+   git config user.email "nombreUsuario@email.com"  // agrega nuestro email
+   git remote add origin https://github.com/DH/RepoRemoto // apunta al repositorio remoto
+
+Agregando archivos al repositorio:
+  git add . // agrega todos los archivos
+  git status // seguimiento del estado de los archivos
+  git commit -m "mensaje" // comitea los cambios hechos	

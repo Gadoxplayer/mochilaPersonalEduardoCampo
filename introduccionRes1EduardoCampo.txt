@@ -1,0 +1,13 @@
+Introduccion a la cursada, introduccion del Profe Lucas y la Profe Erica
+
+Que vamos a aprender: inmersion a la informatica, hardware, software, herramientas de trabajo (github, gitbash, 
+terminal de acuerdo al sistema operativo), red.
+
+Que es una computadora? es un sistema de dispositivos electronicos que son capaz de recibiinstrucciones por parte de un 
+usuario y ejecutarlas.
+
+Introducion: 
+	Hardware: De entrada, salida, internos
+	Software: Sistemas, programacion, aplicacion
+	Servicios: Web, bases de datos, archivos
+	Interfaces de usuario (UI): CLI, GUI, NUI

@@ -1,0 +1,32 @@
+GitHub, repositorio en la nube (almacen de los archivos del proyectos). Es una plataforma colaborativa para 
+llevar el control de versiones.
+1 repositorio por proyecto.
+Cada persona del equipo de trabajo tiene una copia del repositorio (repositorio local), el cual
+se conecta y actualiza por medio de la nube.
+Se crea cuenta en GitHub, se crea repositorio.
+Con el repositorio en el pc ya creado, se conecta por medio del comando:
+gir remote ad origin https://github.com/ellinkquelapaginadegithubteda.git
+Cuando los repositorios son creados por otras personas, el dueno de estos puede enviar invitacion
+para que otras peronas trabajen en estos. La invitacion llega al correo, se abre el link, se 
+acepta la invitacion en la pagina de GitHub.
+
+Para subir archivos se utilizan los comandos:
+        git add . // agrega los archivos
+        git commit -m "mensaje" // comitea los cambios hechos
+        git push origin master // envia los cambios al repositorio remoto
+        git status // seguimiento del estado de los archivos
+
+Para bajarlos (actualizar el repositorio local), se utlizan:
+git clone "url del proyecto" (para bajarlo por primera vez)
+git pull origin master (para actualizar el repositorio local)
+
+Para resolver conflictos (que pueden pasar cuando dos personas trabajan en una misma linea 
+de codigo):
+git push origin master (en este momento nos mostraria el conflicto).
+Se usa git pull origin master para traer los cambios de los demas.
+El git muestra opciones en la terminal para solucionar los conflictos.
+Se realiza un commit indicando que se resolvio el conflicto, de manera resumida.
+Se pueden usar ramas, que permiten organizar los cambios y evaluar mejor los conflictos.
+
+
+      

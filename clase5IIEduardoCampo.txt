@@ -1,0 +1,32 @@
+The big picture:
+Componenetes internos de una computadora: todos los elementos inseparables e indispensables
+para el correcto funcionamiento de la misma.
+Estos son: 
+Placa madre: placa principal donde los demas dispositivos se conectan de manera directa o indirecta.
+Tarjeta de video, Tarjeta de sonido: la placa de vide es encargada de mostrar imagenes en el monitor,
+la placa de sonido permite la reprodiccion de sonidos. 
+Procesador o CPU: el "cerebro" de la computadora, interpreta las instrucciones por medio de 
+operaciones aritmetias y logicas.
+Memoria RAM, Memoria ROM: Ram almacena informacion de manera temporal, rom de manera permanente.
+Disco rigido: disco de almacenamiento secundario, guarda informacion que la computadora no 
+necesita para su funcionamiento inmediato.
+
+Componentes externos:
+Dispositivos que la computadora usa pero que no son indispensables para su funcionamiento.
+-Dispositivos perifericos: Permiten adicionar funciones y operaciones a la computadora.
+	-De entrada: introduce datos a la computadora
+	-De salida: extraen datos de la computadora
+	-Mixtos: cumplen las dos funciones
+	-De almacenamiento: almacena datos de manera externa
+	-De comunicacion: conexion entre computadoras
+
+La CPU: microprocesador del sistema que proceasa todo lo que ocurre en la pc y ejecuta las acciones
+Funciona de la manera en que la Arquitectura de Von Neumann la plantea: Los dispositivos perifericos
+de entrada llevan la informacion a la CPU, la cual por medio de la memoria, procesa la manera en que
+se debe organizar la informacion, la cual es mostrada como resultado por medio de los dispositivos de
+salida.
+La CPU tiene componentes como el Zocalo (socket), nucleos (cores), hilos (threads), memoria cache.
+Tiene caracteristicas como la frecuencia (reloj interno que gobierna y sincroniza los componentes de
+la cpu, determinando las cantidades de operaciones a realizar en un determinado tiempo, cabios en determinados
+segundos. Otra caracteristicas es la IPC o instrucciones por ciclo, el cual mide el numero de instrucciones
+que un procesador es capaz de realizar en cada ciclo de su reloj interno.
