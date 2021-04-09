@@ -1,0 +1,96 @@
+Tipos de memoria:
+Memoria principal y memoria secundaria
+- Memoria principal: guarda datos e informacion de manera temporal, el procesador puede acceder directamente
+a los datos, puede ser volatil o no volatil (determina si la informacion se guarda aunque la computadora se
+apague), capacidad limitada, se accede por medio del bus de datos, velocidad mayo a la secundaria, mayor costo
+que la secundaria.
+- Memoria secundaria: dispositivos de almacenamiento de tipo permanente, el procesador no puede acceder directamente,
+primero debe copiarse a la memoria principal para que el procesador pueda leerlos, siempre son volatil (se guarda la informacion
+mientras el pc este prendido), puede guardar grandes cantidades de datos (terabytes), solo se puede entrar por medio
+de los buses de entrada y salida, velocidad menor a la primaria, costo menor a la primaria.
+
+
+Caracteristicas de la RAM:
+Velocidad, cantidad de procesos por reloj interno, la frecuencia se determina en 1 segundo, que cantidad 
+de procesos realiza (el conjunto de actividades)
+Capacidad, cantidad de datos que se pueden almacenar
+Latencia, cantidad entre ciclos de reloj desde la solicitud hasta la respuesta de un proceso, corresponde
+a la lectura y escritura de un dato, es un tiempo en promedio (una parte pequenia de actividades)
+Voltaje, energia consumida por un modulo ram
+La RAM es una memora de acceso aleatorio, la informacion guardada se pierde cuando se desconecta la 
+alimentacion del pc, se conoce como memoria principal o temporal volatil. Guarda los datos que la 
+cpu esta procesando o va a procesar.
+Tipos de RAM: FPM (fast page mode), SDR (single data rate), R (rambus), V (video), EDO (extended data
+output), DDR RAM, DDR2 RAM, DDR3 RAM, DDR4 RAM, DDR5 RAM.
+
+Unidades de medida de datos:
+De menor a mayor: bit, byte, kilobyte, megabyte, gigabyte, terabyte, petabyte, exabyte, zettabyte, yottabyte.
+
+Registros de una CPU
+Memorias de alta velocidad que permiten acceder a la informacion de manera rapida:
+1. PC Program Counter.
+2. IR Instructions Register.
+3. MAR Memory Address Resgier.
+4. MDR Memory Data Register.
+5. Accumulator
+6. Cache
+
+Cache: apoyo del procesador dividido en 3 niveles, L1 - L2 - L3, organizados por jerarquia establecida
+por cercania al procesador.
+
+
+Memoria Secundaria: 
+Bit, minima unidad de informacion donde se guardan datos, 1 o 0.
+Permiten guardar info a largo plazo: Magneticas (carga magnetica), opticas (luz) y solidas (transitores).
+
+
+Sistema numerico:
+
+Decimal	Binario	Hexadecimal	Octal																	
+0	0000	0		0																	
+1	0001	1		1																	
+2	0010	2		2																	
+3	0011	3		3																	
+4	0100	4		4																	
+5	0101	5		5		
+6	0110	6		6		
+7	0111	7		7		
+8	1000	8				
+9	1001	9											
+10	1010	A																		
+11	1011	B																		
+12	1100	C																		
+13	1101	D																		
+14	1110	E																		
+15	1111	F	
+
+
+Fragmentacion, segmentacion y paginacion:
+Kernel, encargado de las gestiones de segmentacion, paginacion y fragmentacion, aleatorio.
+Fragmentacion: (metodo de gestion de memoria) Espacio que se desperdicia al momento de usar metodos de particion de memoria, se
+genera cuando quedan huecos durante el reemplazo de procesos, entre datos no contiguos.
+Segmentacion: (asigna espacios vacios) realiza un compilador de direcciones logicas las cuales se expresan con un numero de
+segmentos y desplazamiento dentro del segmento. La segmentacion tambien divide en bloques la memoria
+pero si aprovecha los espacios 'vacios' de los bloques.
+Paginacion: (metodo de gestion de memoria, asigna bloques) Permite asignar memoria de forma discontinua, se divide 
+entre armazones o frames. Divide programas en bloques de tamanios iguales. Si la cantidad de datos
+es menor al espacio donde se almacena, se pierde el espacio del bloque donde se almaceno. Tampoco 
+se almacenan de manera secuencial, el espacio donde se almacena es al azar. El espacio no usado se
+desperdicia.
+
+
+
+
+Aclaraciones dentro de la clase:
+Los magnetismos dentro de las ssd funcionan guardando la informacion dentro de 1 y 0 en octetos, el magenetismo
+esta en pequenias partes del transitor. 
+Los transitores tienen celdas que cambian 1 y 0, que van modificando los octetos en todas las memorias.
+
+Ejemplos memoria principal:Resgistros del CPU, Cache, RAM, ROM
+Ejemplos memoria secundaria: SSD, DVD, HDD, HDD, Pendrive
+
+Respecto a la memoria ROM: Contiene la informacion no volatil para iniciar el sistema operativo,
+s encuentra en memoria principal al ser fundamental para arrancar el sistema, pasada la etapa de inicio
+ya no se utiliza.
+
+

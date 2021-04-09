@@ -1,0 +1,48 @@
+Microdesafíos - Grupo III
+
+Para empezar a poner en práctica los conocimientos de sistemas de numeración, 
+necesitarás realizar previamente la siguiente actividad. 
+
+1.	Armar una tabla en donde puedas visualizar los sistemas numéricos 
+binario y hexadecimal.
+2.	Generar los primeros 20 números y su traducción en el otro sistema.
+3.	Convertir los siguientes números en binario al sistema hexadecimal:
+●	0101110 -------- 2E
+●	01101001 ------- 69
+●	10110 ---------- 16
+●	100101 --------- 25
+●	001010111 ------ 57
+
+
+Sistema numerico:
+
+Decimal	Binario	Hexadecimal	Octal																	
+0	0000	0		0																	
+1	0001	1		1																	
+2	0010	2		2																	
+3	0011	3		3																	
+4	0100	4		4																	
+5	0101	5		5		
+6	0110	6		6		
+7	0111	7	     ---7---	
+8	1000	8		10	
+9	1001	9		11									
+10	1010	A		12																
+11	1011	B		13																
+12	1100	C		14																
+13	1101	D		15																
+14	1110	E		16																
+15	1111	F		17
+------------------------------------	
+16	10000	10		20
+17	10001	11		21
+18	10010	12		22
+19	10011	13		23
+20	10100	14		24
+
+
+
+
+
+
+
