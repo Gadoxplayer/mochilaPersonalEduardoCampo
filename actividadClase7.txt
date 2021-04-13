@@ -1,0 +1,51 @@
+CROME OS
+- Segun usuario: multiusuario
+- Segun la gestion de tarea: multitarea
+- Segun la gestion de recursos: centralizado
+- Segun su estructura interna: monolitico
+- Que dispositivos puede usar: PlayStation 4, PlayStation 4 Pro y PlayStation 4 Slim, PlayStation 5 Xbox One, Xbox One S, Xbox One S All-Digital Edition, 
+Xbox One X, y Xbox One Series X|SNintendo Switch y Switch Lite - Android: AG mobile, Asus, Bittium, Fxtec, Google, HTC, 
+Huawei, Lenovo, Motorola, Nokia, POCO, Ratel, Realme, Sony, Xiaomi, ZTE. PC y mac con requisitos minimos: Tarjeta gráfica: 
+Intel HD 4000 en PC o Intel Iris Pro 5200 o AMD GPU equivalente en MacProcesador: Core i3-3225 3.3 GHzMemoria: 4 GB de RAMOS: 
+Windows 7/8/10 de 64 bits o Mac OS Mojave 10.14.6
+
+WWindows 10
+- Segun usuario: multiusuario
+- Segun la gestion de tarea: multitarea
+- Segun la gestion de recursos: centralizado
+- Segun su estructura interna: monolitico
+- Que dispositivos puede usar: pc
+
+Mac Os x
+- Segun usuario: multiusuario
+- Segun la gestion de tarea: multitarea
+- Segun la gestion de recursos: centralizado
+- Segun su estructura interna: monolitico
+- Que dispositivos puede usar: PC
+
+GNU/Linux
+- Segun usuario: multiusuario
+- Segun la gestion de tarea: multitarea
+- Segun la gestion de recursos: centralizado
+- Segun su estructura interna: monolitico
+- Que dispositivos puede usar: PC, Tablets, Smartphones
+
+Android
+- Segun usuario: monousuario
+- Segun la gestion de tarea: multitarea
+- Segun la gestion de recursos: centralizado
+- Segun su estructura interna: monolitico
+- Que dispositivos puede usar: smartphones y tablets
+
+iOS
+- Segun usuario: monousuario
+- Segun la gestion de tarea: multitarea
+- Segun la gestion de recursos: centralizado
+- Segun su estructura interna: monolitico
+- Que dispositivos puede usar: Tablet, smartphone
+
+Otros ejemplos:
+UNIX
+Multitarea, multiusuario, centralizado, jerárquico
+Windows Server
+Multitarea, multiusuario, distribuido, jerárquico

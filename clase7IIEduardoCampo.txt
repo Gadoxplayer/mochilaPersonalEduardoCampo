@@ -1,0 +1,124 @@
+Sistemas Operativos:
+
+Software que comprende un conjunto de programas o soporte logico, que sirve como 
+intermediario entre la comuptadora (o cualquier tecnologia que tenga un 
+microprocesador) y el usuario, controlando el hardware del sistema ofreciendo un 
+ambiente sencillo de manejar, permite manejar la interfaz virtual. 
+En los servidores tambien se maneja sistemas orperativos, se diferencias en el uso;
+este sistema es multiusuaio, varios usuarios trabajando en el mismo nucleo. A diferencia
+de las computadoras personales, que son manejadas usualmente por un solo usuario.
+
+---Los sistemas operativos se dividen:
+
+De acuerdo al tipo de licencia:
+Open source: permiten modificar a voluntad del usuario
+Proprietary software: Limitaciones a las modificaciones 
+
+De acuerdo al usuario:
+Multiusuario - monousuario
+
+Por gestion de tareas:
+Multitarea - monotarea
+
+Por gestion de recursos:
+Centralizado - Distribuido
+---
+El sistema operativo administra recursos como los necesarios para que la memoria
+ejecute aplicaciones, administra la CPU por los algoritmos de programacion, maneja
+la entrada y salida de datos, las autorizaciones para el usuario, administra archivos, 
+entre otros.
+
+
+Generaciones de los procesadores:
+
+-Cero (1940): No tenian sistema operativo, se manejaba un bite a la vez. Usaban
+tarjetas perforadas.
+
+-Primera generacion (1945-1955): Tubos de vacío y tableros enchufables. Maquinas calculadoras 
+que usaban tubos de vacio para su funcionamiento. De gran tamanio, muy lentas, todo realizado 
+en lenguaje de maquina absoluto.
+
+- Segunda generacion (1955-1965): Transistores y sistemas de lote. Maquinas que requerian 
+acondicionamiento de aire especial. Para ejecutar programas, el programador lo escribia en 
+fisico en un papel y luego se perforaban tarjetas. Fisicamente estas eran llevadas al 
+cuarto de entrada. Luego de terminar la tarea se llevaba al cuarto de salida. Era un proceso 
+y maquinaria costosa. Se usaba cintas magneticas para grabar los trabajos para que posteriormente 
+fueran leidos por una computadora pequenia que facilitara la ejecucion.
+
+- Tercera generacion (1965-1970): Circuitos integrados ( CI ) y multiprogramación. Sistemas 
+operativos que funcionaban universalmente, sistema operativo introducido llamado multiprogramacion. 
+Los tiempos de espera era alto entre tareas, lo que conllevo a la division de memorias.
+
+- Cuarta generacion (1980-actualidad): Computadoras personales. Los circuitos integrados 
+a gran escala, chips con miles de transitores, facilito el inicio de la computadora personal. 
+Los principales sistemas son MS-DOS de Microsoft y UNIX.
+
+--------
+
+Clasificacion y comparacion:
+
+Segun la administracion de tareas, monotareas y multitareas.:
+Monotareas solo realizan una tarea a la vez, sistema primitivo como windows me y
+windows vista.
+Multitarea, varias tareas al mismo tiempo.
+
+Segun su administracion de usuarios, monousuarios y multiusuarios:
+Monousuarios, solo da servicio a un usuario a la vez (pc domesticas).
+Multiusuarios, pueden dan servicios a multiples usuarios, por terminales conectadas
+a la pc o por servidores(unix linux o salaris).
+
+Segun su estructura interna, monolitica, jerarquica, maquina virtual, cliente servidor:
+Monolitica, un solo programa compuesto de una serie de rutinas entrelazadas que se
+comunican entre ellas.
+Jerarquica, por jerarquias.
+Maquina virtual, multiprogramacion y maquina extendida
+Cliente servidor, de proposito general.
+
+Segun la gestion de recursos, centralizado o distribuido.
+
+
+------
+
+Llamadas al sistema:
+Kernel = Cerebro del sistema operativo, encargado de interactiar con las aplicaciones
+y sus necesidades, con los recursos que posee el dispositivo para ejecutarlas.
+El kernel asigna recursos, prioridades.
+Las llamadas al sistema son el metodo que tienen las aplicaciones para solicitar un 
+servicio o un recurso.
+Se dividen en:
+- Monolitico: codigo de muchas lineas en un solo espacio de memoria con todos
+los drivers, servicios y metodos de administracion de servicios, desperdicia mucho
+espacio en memoria. Es mas veloz, el 70% no es utilizado, si un sistema falla, todo
+el nucleo falla.
+El microkernel: tiene las administraciones basicas de administracion, deja a las aplicaiones
+administrar sus servicios. La desventaja es que pertence unicamente a un dispostivo, cada dispositivo
+necesitaria su propio microlkernel. Es mas lento debido a que se comunica con paso de
+mensajes. Permite agregar nuevas funcionalidades mas facil. Requiere mas lineas de codigo.
+
+Otras variantes:
+Kernel hibrido, es un microkernel con mas codigo 'no esencial'. Mejora la velocidad del
+microkernel, mayor compatibilidad.
+Nanokernel, codigo aun mas reducido, mas dificil de crear, se comunican los servicios con
+paso de mensajes, facil modificacion del sistema operativo.
+
+Las llamadas al sistema se dividen en:
+Gestion de control
+Gestion de archivos
+Gestion de dispositivos
+GEstion de informacion
+Comunicacion entre procesos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
