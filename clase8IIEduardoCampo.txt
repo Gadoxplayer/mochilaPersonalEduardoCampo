@@ -1,0 +1,101 @@
+Clase 8:
+
+Procesos:
+Los procesos son la forma en que la cpu por medio del sistema operativo, realiza
+las instrucciones que se le dan. Un proceso es cuando la informacion de un programa
+se carga a la memoria, el sistema operativo organiza el orden en que se realizan los
+procesos. Los procesos se ejecutan 1 a la vez, no se almacenan en la memoria principal.
+Los procesos se crean y se terminan, son efimeros, se crean de manera interactiva con el 
+usuario, en segundo plano por medio a los llamados al sistema operativo. Un proceso es
+ un programa en ejecución junto con el entorno asociado (registros, variables, entre 
+otros).
+En resumen, un proceso es un programa.
+Los estados son: Nuevo, listo, ejecucion, bloqueado y salida.
+
+proceso creado: nuevo
+pasado a la memoria: listo (en registros)
+cuando se comienza a ejecutar: ejecucion
+Bloqueado si se hace un llamado para poner en espera
+salida cuando termina
+
+IPC: mecanismos de comunicacion entre procesos. por senales, por memoria compartida.
+Los procesos hijos aparecen cuando un proceso no se puede resolver instantaneamente, 
+realizan subtareas para que el proceso padre realice su objetivo.
+
+--
+Comunicacion de procesos:
+
+Existen dos tipos de procesos que se ejecutan de manera concurrente:
+-Procesos cooperativos. puede ser afectado por otros procesos, el cpu es mas eficiente 
+y veloz. Modularidad, varios pasos efecientemente realizados y simultaneamente. Puede
+generar errores cuando un proceso falla, al ser compartido, falla con los que comparte.
+-Procesos independientes. Autonomos, no afecta ni es afectado por otros procesos
+Los procesos se comunican IPC, por medio de la memoria compartida y los pasos de 
+mensajes.
+En el modelo de memoria compartida se establece un espacio en memoria que será 
+compartido por los procesos. La memoria compartida es generalmente mas economica
+que usar un multiprocesador.En el caso del modelo de pasos de mensajes, podemos 
+decir que:
+La comunicación se hace mediante operaciones explícitas de envío y recepción.
+Los procesos no comparten memoria.
+
+
+--
+Sincronizacion de procesos:
+De acuerdo a los estados: nuevo, listo, ejecucion, bloqueado y terminado; existe una
+herramienta llamada semaforo (herramienta de sincronizacion), para contorlar los procesos, los cuales pueden ser
+independientes o cooperativos. 
+La cola de procesos depende de la planificacion de la cpu, los recursos necesarios
+para los procesamientos deben estar listo para evitar la inanicion, para combatiresto
+existe tecnicas de planificacion:
+1. FIFO, first in, first out: se asigna tiempo de ejecucion de cpu al primer proceso
+que lo solicite
+2. SJF, shortest job first: le da prioridad de ejecucion a quien posee el meno tiempo
+de ejecucion
+3. SRTF, shorest remaining time: si un proceso largo se esta ejecutando y llega un
+segundo de menor tiempo, se interrumpe el primero dando paso a la ejecucion del
+ segundo. Una vez terminado este, comienza nuevamente el primer proceso en el
+sector donde quedo cortado.
+4. Round Robin, existe un quantum (cantidad) de tiempo donde los procesos a medida que llegan a
+la fila de espera se ejecutan en la cpu hasta que el quatum se cumple, si quedan pendientes
+vuelven a la cola, si se esta llevando a ejecucion un proceso y se acaba el quantum, 
+se interrumpe y vuelve a la cola de ultimo.
+5. Otros: Retroalimentacion multinivel o planificacion por comportamiento
+
+
+--
+Hilos o  threads:
+Es la division de secuencia de tareas de un proceso, denominadas hilos, que son porciones 
+de codigo que pueden ejecutarse de forma simultanea en coperacion con otros subprocesos.
+1Multiples hilos existen en un proceso. Los procesos no comparten recursos cuando se
+ejecutan. Es importante la sincronizacion para que no se generen conflictos cuando
+un hilo este usando un recurso que necesite otro hilo. Son exvelentes en su capacidad
+de respuesta, para el trabajo en paralelo, la sincronizacion es compleja.
+
+---
+Planificación de CPU
+
+Son las políticas y mecanismos que poseen los sistemas operativos actuales para 
+realizar la gestión del procesador. Su objetivo es dar un buen servicio a todos 
+los procesos que existan en un momento dado en el sistema.
+
+*Fifo, primero en llegar, primero en salir
+*Round-Robin (RR), cada proceso tiene un tiempo de ejecucion, si no lo termina
+regresa a la cola
+*SJF, el mas corto, toma al que necesite menos tiempo de ejecucion.
+*SRTF, cambia al proceso que exija menos
+*Colasmultiple, procesos agrupados con una planificacion distinta
+Criterios para el altgoritmo de planificacion:
+-Tiempo de respuesta, velocidad del ordenador de entrada y salida.
+-Tiempo de servicio, tiempo que tarda en ejecutarse un proceso.
+-Rendimiento, numero de trabajos realizados en una unidad de tiempo.
+-Tiempo de procesador, es el tiempo que un proceso está utilizando el procesador sin 
+contar el tiempo que se encuentra bloqueado por operaciones de entrada/salida.
+-Tiempo de ejecucion, similar a tiempo de servicio
+-Eficiencia, se refiere a la utilización del recurso más caro en un sistema.
+-Tiempo de espera, tiempo en que los procesos estan activos, pero sin ejecutarlos
+
+
+El kernel es conocido como el corazon de un sistema operativo, puede
+realizarel cambio de contexto de los procesos, teniendo como anterior
+administrador al nucleo.
