@@ -1,0 +1,97 @@
+Clase 10
+Lenguaje de programacion:
+Los algoritmos son unas instruccion conformadas por series de pasos 
+que permiten una interpretacion no ambigua de lo que se quiere comunicar
+a las aplicaciones.
+Las instrucciones se dan por un lenguaje formal, conocidos como lenguajes
+de programacion. 
+Existen lenguajes especificos y generales.
+De alto y bajo nivel, los de alto nivel son los mas cercanos al lenguajes
+natural, osea al que hablamos. El de bajo nivel es mas cercano a los 0 y
+los 1.
+Los lenguajes de bajo nivel son necesarios para dar instrucciones especificas
+y ademas mejorar la eficiencia de recursos, dependientes del Hardware.
+
+Lenguajes tipados fuerte y debil, se distinguen segun si permiten o no
+violaciones de los tipos de datos declarados.
+
+- Debil: no se indica el tipo de variable, se pueden asignar valores a variables
+que tengan anteriormente valores, incluso de diferente tipo. Ventaja: muy rapido 
+para desarrollar. Desventaja: suceptible a muchos errores (Java Script, perl, lisp, swiprolog, php)
+
+- Fuerte: nos obliga a indicar el tipo de dato de la variable al declarar,
+ventaja, codigo mas expresivo, menos erores, desventaja, son mucho mas
+estrictos, necesita mas lineas de codigo. (c++, jva, Python, C#, TS typeScript, GO)
+
+- Estatico: la comprobacion de tipificacion se hace durante la compilacion 
+y no durante la ejecucion, errores detectados antes de la ejecucion, mas
+seguro. (C, C++, java, Haskell)
+
+- Dinamico: comprobacion de tipificacion durante la ejecucion, mas flexible
+que el estatico, mas propenso a erores. (JavaScript, perl, python, lisp)
+
+---
+Frameworks:
+Marcos de trabajo, estructra o esqueleto donde se desarrolla un proyecto.
+Plantilla, esquema, concepto que simplifica la elaboracion de una tarea.
+(React, Spring MVS, Vue.js, Express JS, ANgular, Rails, django, laravel)
+
+---
+Paradigmas de la programacion:
+- Modelo estructurado:
+Es su momento la forma de programar era estrucutrada, donde se escribian
+funciones y el codigo se realizada linea por linea, era complejo.
+- Modelo orientado a objetos:
+Cada objeto tiene una funcion, inicio con el lenguaje simula. 
+
+- Programacion imperativa: indicar a la computadora que hacer y su secuencia
+por medio de instrucciones sucesivas
+	-Programacion estructurada: secuencia, condicion e iteracion.
+	-Programacion orientada a objetos: Objetos e iteraciones para 
+	 resolver problemas
+
+- Programacion multiparadigma: Lenguajes de programacion con mas de un 
+paradigma.
+
+- Programacion declarativa: Describe el resultado final que se espera.
+	- Programacion logica: Basada en conceptos matematicos
+	- Programacion funcional: Basada en conceptos matematicos y el 
+	   principio de funcion.
+
+-Programacion con lenguaje especifico de dominio: Engloba lengujas de desarrollo
+para resolver problemas.
+
+---
+Del Codigo al Ejecutable:
+Codigo fuente: intrucciones de computadora escritos en lenguaje de
+programaacio, un programa puede estar escrito en diversos lenguajes.
+Codigo maquina: sentencias en lenguaje binario.Las instrucciones 
+deben pasar de nuestro codigo al codigo que entiende la maquina, 
+llamada compilacion. El resultador de la compilacion, es el ejecutable.
+Diversos programas funcionan en diversos sistemas si tienen sistema operativo
+similar y aquitectura de cpu similar.
+Compilador: compila y traduce el codigo fuente en codigo para el procesador,
+codigo maquina, que puede compreder y ejecutar. Este codigo maquina se almacena
+de forma de archivo ejecutable.
+
+
+Mauinas virtuales: VM, el codigo fuente es compilado a codigo maquina pero no
+de mi maquina, sino en el VM. Permite mas flexibilidad en la compatibilidad.
+
+Interprete: Analisis linea por linea en cada sistema donde se produce
+el codigo fuente, traduciendo a un codigo maquina que la misma entiende.
+Es mas rapido que el compilador, mas lenta ejecucion y necesita mas memoria.
+
+La diferencia de estos ejecutables esta en la velocidad de ejecucion.
+La maquina virtual funciona como intermediario, debe pasar por ella
+Interpetre debe leer linea por linea, la tracuddion de cada linea
+relentiza el proceso.
+
+
+
+
+
+
+
+
+
