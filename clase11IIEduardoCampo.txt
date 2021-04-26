@@ -1,0 +1,162 @@
+Accsesos remotos, dependientes del uso de internet, vulnerables, sobretodo
+cuando son usado por internet.
+Maquina virtual tipo 1 y tipo 2:
+tipo 1: Hypervisor sin sistema operativo por el medio, el hypervisor atiende 
+las peticiones
+tipo 2: con una capa adicional, simula la existencia del hardware por medio
+del hypervisor, host Os entra al hardware, gestiona las solicitudes
+
+El hypervisor tiene una interfaz grafica.
+Tienen un instalador, un cliente administrador.
+
+Concepto:
+Imagen: una copia de todos los archivos necesarios para que un archivo funcione
+y se pueda instarlar
+Biblioteca: archivos y configuraciones adicionales necesarias para que un archivo
+pueda funcionar.
+Dockerfilesy docker: archivo de configuracion que indica como crear una imagen de docker, indicando
+como crear la imagen, la copia que se quiere crear (por el comando build), se nombra. El Docker es otra metodologia de virtualizacion
+a diferencia de la maquina virtual, es mas pequenio, no recibe actualizaciones para el
+sistema operativo virtual
+Docker engine: comunica el container con el SO.
+Un contenedor es una imagen ejecutandose (comando run), una imagen sin ejecutarse es un archivo de copia 
+creado inactivo.
+Orquestador: administrador de varios servidores que tienen sus dockers corriendo. Automitiza los cambios necesarios en apps, config, etc, para\
+que los cambios ocurran en todos los involucrados en el servidor. Puede administrar las solicitudes,
+si un contenedor no funciona, se puede remitir a otro. Si se tienen muchas peticiones
+varias solicitudes, el orquestador la redirecciona para evitar la congestion.
+
+Estructura de un servidor:
+infraestructura fisica (pc)
+	Maquinas virtuales
+		Clusters, compartidas por todas las maquinas virtuales, el cluster seria
+		un espacio en memoria
+			Aplicaciones o contenedores, pueden existir varios dentro de un 
+			mismo cluster.
+			El docker esta instalado en un closter, ejecutandose en los diferentes
+			contenedores.
+				Orquestador: administrador de recursos de la maquina virtual
+
+
+*Un contenedor, puede tener una gran aplicación... o puedes dividir esa aplicación en muchas aplicaciones pequeñas 
+que se intercomunican entre ellas (llamadas servicios) cada una de esas corriendo en su propio contenedor, a eso lo 
+llaman arquitectura de microservicios.
+
+Actividad paddlet: https://padlet.com/PedagogiaDH/husqvpu9jk4xaoxg
+
+-----
+Escritorios Remotos:
+Son programas que permiten interacctuar con una computadora a distancia
+por medio del internet. No requiere una red especial o hardware especial.
+necesita que la computadora a la que se va acceder de forma remota, denominada
+Host, y la computadora personal, denominada cliente, tengan el mismo programa de acceso remoto
+Se ahorran recursos, mejora la productividad, se ahorra espacio fisico.
+Algunos ejemplos:
+-Assist - Chrome Remote Destop - Tean Viewer / Anydesk - Remote Desktop.
+
+Desventajas: Si el programa no posee la seguridad, es muy vulnerable. El rendimiento
+del sistema depende enteramente de la calidad de la conexion al internet.
+
+------
+Maquinas virtuales:
+Sistemas operativos que estan unos dentros de otros, la maquina virtual es un programa
+que puede contener en su interior un sistema operativo, simulando una pc real.
+Ese sistema operativo puede albergar otro mas.
+
+Clasificacion:
+
+MV de sistemas / MV de procesos
+
+MV de sistemas: emula una computadora completa
+
+MV de procesos: no emula la pc completa, solo un proceso concreto, como una aplicacion
+
+El lugar donde la mv es creada se llama hipervisor, el cual es una capa de software que se
+instala sobre la capa rigida de la memoria, teniendo la funcion de asignar los recursos a la mv
+Tienes diversos tipos, el tipo 1 corre sobre el hipervisor, el tipo 2 corre sobre un sistema
+operativo y es mas lento.
+
+- Tipo 1: Hipervisor tipo 1:
+Ejemplos-hipervisor-1-BlogEl hipervisor Tipo 1 se conoce como el hipervisor «bare-metal.
+Esto significa que se ejecuta directamente en el hardware físico de la máquina 
+host; no tiene que cargar un sistema operativo subyacente antes de eso. Debido al
+ hecho de que los hipervisores tipo 1 tienen acceso directo al hardware subyacente (y 
+no a otros sistemas operativos y controladores de dispositivos con los que contentar), este 
+tipo de hipervisor se considera el mejor rendimiento y el más eficiente para la informática empresarial.
+El tipo 1 necesita hardware de soporte, el hipervisor tendría que manejar las tareas 
+intensivas requeridas para la virtualización por sí solo. En última instancia, esto 
+conduciría a una caída en el rendimiento de virtualización y también restringiría la cantidad 
+de máquinas virtuales invitadas que podrían alojarse en una computadora.
+- Tipo 2: Hipervisores tipo 2:
+La principal diferencia entre los hipervisores tipo 1 y tipo 2 es que los hipervisores
+tipo 2 generalmente se instalan en un sistema operativo existente. Esto lo convierte 
+en un hipervisor alojado, ya que depende del sistema operativo de la máquina host 
+para llevar a cabo ciertas operaciones, como administrar llamadas a la CPU, administrar 
+recursos de red, administrar memoria y almacenamiento. Esto permite que los hipervisores 
+tipo 2 admitan una amplia gama de hardware.Se instalan en un sistema operativo, se 
+considera un hipervisor alojado, depende del sistema operativo para manejar tareas 
+como llamadas al sistema, entre otras, recurre a la emulacion del software, bajo 
+costo, facilidad de uso.
+Fuente: https://www.hostdime.com.ar/blog/hipervisores-tipo-1-y-tipo-2-lo-que-los-hace-diferentes/#:~:text=Hipervisor%20tipo%201%3A,operativo%20subyacente%20antes%20de%20eso.
+
+Ventajas: Permite realizar pruebas sobre diversos sistemas operativos sin tener que cambiar la pc
+permite ejecutar programas antiguos, ejecutar programas exclusivos a otros sistemas, ofrece un entorno
+de seguiridad para identificar como funcionan virus y malewares. Su uso permite mejorar
+el aprovechamiento del hardware. Permitio llevar la virtualizacion a areas como el 
+almacenamiento.
+Desventajas: menos eficientes que las maquinas reales, son mas lentos. Cuando varias
+maquinas virtuales se ejecutan en la misma maquina, se vuelve lento y pesado.
+
+---------
+Contenedores:
+Se puede agregar un producto como software, herramientas como librerias y un sistema
+operativo que funcione correctamente para los anteriores. Este espacio virtual llamado
+contenedor puede ser usado en un sistema operativo para usar nuestra aplicacion o software
+Los contenedores funcionan de manera conjunta con el sistema operativo, no requieren
+de un hipervisor y son muchos mas rapido. Funcionan en capas. Es un concepto de empaquetamiento
+de software que incluye la aplicacion y todas sus dependencias de ejecucion
+Para implementar un contenedor se necesita crear en primer lugar una imagen, para
+ello se crea una imagen base del software para establecer donde se va a montar
+Funciona similar a github: Crear una imagen = docker build = docker publish = docker
+pull = docker run.
+La configuracion permte que los requisitos de infraestructura no esten vinculados con el
+entorno, pudiendo desarrollarse en diversos. El tamanio se ve disminuido considerablemente.
+Permite aumentar la productividad, reduce recursos gastados, permite la gestion multiple,
+los servicios establecen las tareas dentro de un cluster.Los contenedores permiten
+ejecutar aplicaciones en un entorno aislado, cada aplicacion es independiente de otro.\
+
+Administrador de contenedores:
+Se utliza un orquestador. Es una herramienta que automatiza el despliegue, escalamiento, 
+administracion, comunicacion y disponibilidad de nuestro software ejecutandose en 
+contenedores. Es necesario porque hay entornos donde se necesita que no existan tiempos
+de inactividad, donde el orquestador automatiza un inicio automatico por ejemplo.
+Caracteristicas:
+Autoreparacion, puede recuperar los contenedores que fallen, reemplazarlos o recuperarlo.
+Rretroceso automatizado, retroceder aplicado a nivel de sistema.
+Autoescalado, cuando hay picos de demanda, distribuye los despliegues
+Balanceo de carga, cuando recibe mucha demanda, redistribuye el trafico de red para
+que sea balanceado y equilibrado.
+Otras caracteristicas incluyen la configuracion automatica, el despliegue y levantado 
+automatico de servicios, autoreinicio de contenedores, control de salud de cada contenedor,
+intercambio de datos, mantenimiento de parametros ocultos o secretos.
+Ejemplos de contenedores: Kubernetes - Docker Swarm - Mesosphere DC/OS - HashhoCorp Nomad - 
+Amazon ECS - Amazon EKS - Azure Kurbernetes Services (AKS) - Google Kubernetes engine (GKE) -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
