@@ -1,0 +1,72 @@
+-----------
+Redes: 
+Conjunto de dispositivos informaticos independientes conectados entre si para el intercambio de informacion
+de manera efeciente y rapida.
+
+Tipos:
+Redes por alcance: 
+Red de area: personal o PAN. 
+Red de area local: LAN, local area network 1-5km, hogares, oficinas escuelas.
+MAN redes de areas metropolitanas 50-60km, alta velocidad, conecta varias lan.
+WAN wide area network: tiene un alcance de 100-1000km
+
+Por autenticacion: Privada y publica.
+
+Por conexion: cableada (paar trenzado, fibra optica, cable coaxial). Inalambrica (infrarojo,
+bluetooth, wifi).
+
+Por su grado de difusion: Intranet, Extranet, Internet
+
+----
+Medios de transmisión
+El medio de transmisión constituye el soporte físico a través del cual el emisor y receptor pueden 
+comunicarse en un sistema de transmisión de datos.
+
+Medios guiados: Están constituidos por cables que se encargan de la conducción de las señales 
+desde un extremo a otro. La velocidad de transmisión depende directamente de la 
+distancia entre las terminales. (pares trenzados, cable coaxial, fibra optica)
+
+Medios no guiados:La transmisión y la recepción de información se lleva a cabo 
+por antenas. A la hora de transmitir, la antena irradia energía electromagnética 
+en el medio y la antena lo recepciona cuando capta las ondas electromagnéticas 
+del medio que la rodea. (Bluetooth, infrarojo, wifi)
+
+-----
+Velocidades de internet:
+Red global de acceso a informacion, medicante la comunicacion de dispositivos.
+Posee las mismas caracteristicas de comunicaciones de datos.
+La velocidad se refiere a la rapidez de subida y bajada de datos, depende del medio
+y estandares, se mide en megabits.
+Seguridad: Evitar intrusos a la informacion transmitida
+Confiabilidad: Mide la relacion entre fallos, menos fallos, mas confiable
+Escalabilidad: Evitar que el servicio no decaiga si aumentan los usuarios
+Disponibilidad: Capacidad para siempre funcionar
+
+Para medir el tiempo exacto de demora de un paquete de datos en ser enviado de un
+dispositivo a otro, se usa el ping, se mide en milisegundos.
+
+-----
+Red local:
+Se deben identificar los dispositivos a los que se conectara por red
+Luego se analiza cuales necesitan cableada y cuales red inalambrica
+Croquis
+Disenio de red, moden y router con wifi, plc
+Establecer conexion del wam a la red local
+
+Conceptos: Direccion IP, numero unico que reconce cada dispositivo conectado a una 
+red. Puerta de enlace: el router pose una puerta de enlace, siendo el administrador
+de red, comunica un dispositvo de red diferente a la que se encuentra. IP dinamico o 
+estatico: el router lo designa de forma a utomatica es dinamica, estatica si nosotros
+lo definimos desde el sistema operativo.
+
+Comandos:
+ipconfig: muestra la ip y la puerta de enlace en mac y windows
+ifconfig: muestra la ip y la puerta de enlace en linux
+ping (url o direccion ip) para verificar la conectividad entre dispositivos
+
+
+
+
+
+
+

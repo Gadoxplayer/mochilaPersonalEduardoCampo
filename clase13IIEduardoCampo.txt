@@ -1,0 +1,138 @@
+----
+IP Protocolos de internet:
+internet protocol, es el protocolo utilizado para el iontercambio de mensajes en redes informaticas.
+Son normas que nos rigen elintercambio de informacion a traves de una red de computadoras.
+Los TCP p Transmission control protocol, son las bases del internet junto al IP.
+El paquete ip define el agrapamiento de datos que se deben enviar, el ip describe la infor sobre el origen
+y destino de los datos.
+El protocolo ip (internet protocol) identifica cada dispositivo que se encuentra conectado a la red con su correspondiente
+IP: direccion que identifica la red, direccion que identifica al dispositivo dentro de la red.
+La direccion IP es unica, exclusiva para cada equipo conectado a internet. La función principal es 
+conseguir que los datos lleguen desde origen al destino, aunque no tenga una conexión directa. Estos
+datos se transfieren mediante paquetes conmutados —método de agrupar los datos. 
+DHCP (dinamic host configuration protocol) es el protocolo de configuracion dinamica de host, encargado 
+de la asignacion del IP
+Dentro del modelo tcp/ip se encuentra el protocolo HTTP (hypertext transfer protocol), protocolo
+cliente servidor que gfestiona las transacciones web entre estos dos.
+Para facilitar la identificacion de direcciones ip se creo los nombres de dominio. Cada vez que se
+quiera acceder a una pagina web, se usa el nombre de dominio, por ejemplo google.com. con su direccion 
+ip 00.323.435.654. por ejemplo.
+En esta instancia la DNS domain name system traduce ese dominio e ip.
+
+El TCP (transmission control protocol) garantiza que los datos sean entregados al lugar de destino, sin ningún error y en el mismo 
+orden que se transmitieron. Se encuentra en una capa intermedia entre el protocolo IP y la aplicación
+Confiable, permite la conexcion segura, establece y finaliza la conexcion, junto a la trasnferencia de
+datos
+
+El DNS istema de nomenclatura jerárquico descentralizado para dispositivos conectados tanto a 
+Internet como a redes privadas, que asocia información con el nombre del dominio. Su función 
+principal es “traducir” los nombres de los dominios que estamos acostumbrados, como youtube.com, 
+en identificadores binarios asociados con los equipos conectados a la red o direcciones IP, como 
+84.78.754.20. Para acceder a Internet los usuarios utilizan el nombre de dominio, en lugar de los 
+complejos números de IP. Este toma los HTPP y el ip, y lo traduce.
+
+TCP/IP: control de transmision y protocolo de intenet es una combinacion de los dos nombrados, permite
+la comunicacion entre dispositivos o computadoras de una red sin importar el software o hardware. Cuando 
+se transfiere información de un dispositivo a otro —por ejemplo, mensajes de correo electrónico o 
+cualquier otro tipo de datos— esta información no es transmitida de una sola vez, sino que se divide
+en pequeñas partes. El modelo TCP/IP es usado para comunicaciones en redes
+
+El URI (uniform Resource Identificator), utilizada en la barra de direcciones de un navegador, puede ser
+identificado de dos maneras, URL y la URN. La url indica donde se encuentra el recurso que deseamos
+y siempre inicia con el nombre de un protocolo (ej: http:www.etc), la URN es el nombre exacto del recurso
+uniforme, el nombre del dominio y/o el nombre del recurso, es lo que ingresamos al navegador. Gracias 
+al DNS permite al servidor el cambio de urn a direccion ip.
+
+El UDP es el User Datagram Protocol, es un paquete de datos (bloques de informacion a enviar), su funcion
+es permitir el envio de datagramas. Es mas ligero que el protocolo TCP/IP, no existe control sobre los
+paquetes enviados, se envian lo mar rapido posible, sin tener en cuenta si llegan completos o no.
+Se usa en la transmicion de datos de alta velocidad.
+
+El HTTP es el protocolo de transferencia de hipertexto, protocolo ordenado de transacciones que sigue
+el esquema de peticion respuesta entre cliente servidor.  El cliente 
+—normalmente un navegador web— realiza una petición enviando un mensaje, con cierto formato al servidor.
+El servidor —se le suele llamar un servidor web— le envía un mensaje de respuesta. El www y enlaces es 
+lo utilizado por este protocolo, se le llama URI, siendo un bloque de texto que se puede identificar com
+url y urn.
+
+El HTTPS El protocolo seguro de transferencia de hipertexto —en inglés, Hypertext Transfer Protocol 
+Secure o HTTPS— está destinado a la transferencia segura de datos de hipertexto. Lo que hace es 
+encriptar los datos que son enviados entre clientes y servidores utilizando algoritmos de encriptación, 
+de este modo toda la información sensible
+
+Otros conocidos:
+FTP (file transfer protocol), protocolo de transferencia de archivos, envio y recepcion de archivos
+SSH (secure share), para acceder a equipos remotos
+SMTP (simple mail transfer protocol), protocolo para el envio seguro de correos
+POP3 o IMAP para recepcion de correos desde una casilla.
+
+----
+Direccion IP:
+Direccion unica de cada dispositivo conectado a internet, representa la ubicacion dentro del internet
+o una red. Internet protocol, es el numero de cada
+dispositivo conectado al internet. Cuando se tipea la pagina web, el navegador traduce esta pagina
+al ip correspondiente. Para el envio de datos es fundmental el ip. El numero ip es un conjunto de 3
+numeros, cada uno separado por un punto y llamados octetos, numeros del 0 al 255. Estan formados cada
+octeto por 8 bits, tiene entonces 0 y 1, teniendo valores que llegan hasta el numero 255.
+Las redes usan numeros de redes y numero de host. Para identifcar mas exactamente la direccion.
+Clase A: contiene solo un octeto, el resto es el host (mas comun) usada para grandes empresar
+Clase B: tiene 2 octetos habilitados para host, mediana, para por ejemplo universidad
+Clase C: solo un octeto habilitado para host (menos comun), pequenia, usada para red privadas de hogar.
+Estos sitemas estan saturados, por lo que se paso a usar el ipv y el ipv4
+Existe la clase D (direccion de grupo) y E (indefinido)
+Exiate tambien la llamada IP estatica o dinamica: Su funcion es simpre cambiar, usualmente asignada por
+el proveedor de internet en un router conectado. Las estaticas son ip fijas, que aunque el dispositivo
+este apagado, continuara con la misma direccion. Dinamicas se asignan cuando el dispositivo este 
+funcionando, cuadno se apaga y se vuelve a encender tendra un ip diferente.
+El router tiene asignada la primera direccion ip disponible, con el cual se identifica en el internet
+El broadcast hace referencia a la direccion mas alta a la que pertenezca el dispositivo, es usada para
+enviar un mensaje a todos los dispositivos que tengan una ip asignada dentro de la red, hogarenias 
+usualmente.
+----
+Red privada:
+Desde el exterior, al router le llega informacion desde miles de direciones ip publicas, dentro del hogar
+las direcciones ip son privadas. Los 3 primeros octetos, sera la direccion de la red, el ultimo al host, la
+red local es clase C. Cada dispositivo dentro de la casa tiene una direccion ip diferente, a pesar de estar
+conectada a la misma red. La ip privada de cada dispositivo es diferente, cuando nos conectamos a internet
+por medio del router, todos toman la misma direccion publica de ip. En la terminal se puede tipear 
+IPCONFIG en windows y IFCONFIG en mac linux
+----
+IPv4:
+Es una direccion ip de cadena de numeros separados por puntos, conjunto de 4 numeros. Octetos tambien
+-----
+Mascara de subred:
+Combinacion de numeros para delimitar el ambito de una red de computadoras. El TCP/IP usa la mascara
+de subred para validar si el host esta en la subred local o una remota. Su funcion es indicar que parte
+corresponde al host y que parte es el numero de red. Consta de octetos variables y una parte final estatica
+que permite comparar cada una con la mascara y validar los correspondientes a red y los correspondientes a
+host.
+---
+IPv6:
+Esta destinada a sustituis al IPv4, porque esta tiene un limite. La 6 contiene un numero teoricamente
+ilimitado de direcciones Ips unicas, se autoconfigura, mejor seguridad, mejor eficiencia.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
