@@ -1,0 +1,90 @@
+Red internas - HTML
+
+Red internas
+
+Direccionamiento interno:
+La informacion se transmite en internet de varias formas, una de ellas es el Routing, lo cual es mover datos de una red 
+a otra y lo lleva a cabo el router, permite interconectar ordenadores. Decide que ruta seguiran los datos, al realizar
+una accion esa informacion de la accion viaja por medio de la computadora su lugar de destino por medio de cientos
+o miles de routers. El router toma el ip que tiene la solicitud que realizamos, el router toma esa red de destino,
+verifica que no sea local y pasa a revisar la tabla de enrutamiento (para comunicar con el exterior), busca la mejor
+ruta posible para que el mensaje llegue, en esa rutas hay mas routers, hasta llegar a la computadora de destino, luego esta
+remite el mensaje de respuesta por los routers hasta llegar a la que envio la solicitud inicial.
+La conexion entre computadoras siempre se realiza de la misma forma (por direcciones IP), cuando se necesitan mas solicitudes, se diferencian
+las solitides por medio de puertos, en total existen 65536 en cada dispositivo. De 0 al 1023 son los mas conocidos
+y estan reservados para el sistema operativos y los protocolos. del 1024 al 49151 son los registrados utilizados por
+aplicaciones y juegos. Los superiores al 49151 le corresponden a los puertos dinamicos o privados.
+En el enrutamiento y los puertos, el router tiene la funcion de recibir datos, buscar la direccion de destino, verificar 
+la tabla de enrutamiento, enviar el paquete de infor por la mejor ruta disponible.
+
+Tablas de enrutamiento: Contienen la ruta de destino, siguiente salto, interfaz de salida.
+- Red de destino: red de destino por el que debera ir el paquete de datos.
+- Siguiente salto: es la direccion IP de la interfaz de red por donde viajar el paquete
+- Interfaz salida: es la interfaz de red por donde deben salir los paquetes para posteriormente llegar al destino
+Tipos de enrutamiento:
+-Estatico: tablas creadas manualmente, el administrtador de la red la configura, responsable de que sean accesibles
+y libres de bugs. Consume menos ancho de banda, menos memoria, para redes pequenias, no escala. como desventaja, requiere
+que cualquier cambio en la red sea agregado o eliminado por el administrador.
+-Dinamico: Informacion necesaria para crear y mantener actualizadas las tablas se obtiene de demas routers en la red.
+Utiliza protocolos de enrutamiento para intercambiar la informacion con routers vecinos. Consume mucho ancho de banda,
+mucha memoria, se usa para redes grandes, es automatico. La mayor ventaja, el ajuste automatico ante cambios en la 
+red, como desventaja, los mensajes de iuntercambio son automaticos y consume muchop ancho de banda.
+
+Puertos: puntos de conexion para el intercambio de informacion y datos. El router usa canales o puertas que organiza el contenido
+que se envia, estos son los puertos. Todos los routers tienen 65536 puertos. El IANA supervisa la aasignacion global de
+IP y relativos, como los puertos. Tienen 3 grupos:
+- De 0 al 1023 son los mas conocidos y estan reservados para el sistema operativos y los protocolos de funcionamiento. 
+- Del 1024 al 49151 son los registrados utilizados por aplicaciones y juegos. 
+- Los superiores al 49151 le corresponden a los puertos dinamicos o privados.
+
+-----------
+Redes Externas:
+
+Direccionamiento Externo - HTML
+
+Cuando los datos salen de la red locar por medio del router van a parar al ISP o proveedor del servicios de internet,
+la mayoria de los paquetes de datos viajan encriptados solo visibles en la lugar de destino. El direccionamiento externo
+puede realizarse por el proxy, el cual es un servidor informatico que intercepta conexiones de red eludiendo al isp,
+otro metodo es por medio de una VPN, permite el envio y recibido de datos conectandose a red privadas.
+
+VPN: 
+Red privada virtual (private virtual red) utialziada para proteger la privacidad dirigiendo la conexion a un servidor
+que oculta la direccion IP y encripta la comunicacion en linea. Al usarla, la informacion pasa por unos servidores del
+proveedor de VPN antes de llegar a su destino. Ventajas: facil de usar, veloz no se afecta por el software de encriptado, 
+compatible con la mayoria de dispositivos. Desventajas, encriptacion debil, fallos de software, politcar variadas.
+
+TOR:
+Similar a la VPN, mensajes que viajan hacia desde el pc pasan por la red Tor el lugar de conectarse directamente a los
+recursos de internet. La vpn brinda privacidad el Tor brinda anonimato completo. El nodo guardia recibe los datos 
+conociendo la identidad de quien recibe, pero no el contenido del mensaje, pasa al nodo intermedio donde se procesa, 
+en el node de salida se encripta el contenido del mensaje para validar el destino, donde se conoce entonces el contenido
+del mensaje pero no el remitente. Ventajas, no son faciles de apgar, anonimato casi completo. Desventajas, lento, dirigida
+por voluntarios, baja compatibilidad con dispositivos.
+
+Aclaraciones:
+URL: tiene el dominio donde se va a netrar y el protocolo
+
+URN: direccion exacta del sitio sin el protocolo
+
+URI: puede ser ambas, completas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
