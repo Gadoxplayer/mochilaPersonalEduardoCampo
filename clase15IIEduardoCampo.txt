@@ -1,0 +1,71 @@
+deploying a malicious Firefox extension on target systems.
+customized malicious Mozilla Firefox browser extension that facilitated access and control of users' 
+Gmail accounts,
+Sepulcher malware with the strategic goal of espionage and civil dissident surveillance.
+
+Es  una extension maliciosa de Firefox, que facilita el acceso y control a las cuentas gmail de los afectados.
+La cadena de infeccion inicia con un email de suplantacion pasandose como "La fundacion Tibetiana de mujeres"
+usando una cuenta de gmail TA413 para enmascararse como el Bureau of His Holiness the Dalai Lama in India.
+El email contenia una url maliciosa supuestamente a una pagina de youtube, cuando en realidad tomaba al usuario a
+una falsa actualizacion de "Adobe Flash Player" lo que llevaba a una pagina que requeria instalar una extension llamada "FriarFox"
+
+En esta onstancia la extension corrupta se hace llamar "Flash update components", el cual tiene la capacidad de moficar otras
+extensiones como el Checker plus de gmail. 
+
+La operacion ataca a usuarios de Firefox que se encuentran logeados a su cuenta gmail. Solo funciona en firefox y con una cuenta
+gmail logeada, es por esto que la extension sugiere al usuario que deje a firefox como su buscados por defecto
+
+-----
+
+Clase 15:
+
+
+Seguridad informatica:
+en las ultimas dos decadas, las TIC o tecnologias de intercomunicaciones han avanzada profundamente, lo que ha permitido el avance de conductas
+ilicitas nuevas no dimensionadas anteriormente y que son especificas a las facilidades que la tecnologia ofrece.
+La seguridad informatica o ciberseguridad es una disciplina encargada de proteger la integridad y privacidad de los datos y toda informacion qu se encuentre
+alojado en un sistema informatico.
+
+Tipos de amenazas:
+
+Cuando un dispositivo o aplicacion no funciona correctamente, se puede deber a un tipo de software conocido como malware, que permite por medio del
+sistema de distirbucion de las TIC, propagarse. Malware: malicious software. Este software se oculta del usuario para poder realizar sus acciones
+maliciosas
+
+- Virus: componente de software que se encuentra en unsistema con el objetivo de copiarse en un sistema constantemente, en diferentes partes y niveles
+El objetivo es destruir o inhabilitar archivos o programas de nuestro sistema, estos virus no pueden infectar otros dispositivos a menos que se use
+un hardware para el transporte, por eso se llaman de "poca indefeccion", se replican a si mismo solo en el mismo dispositivo. Es propio de sistemas
+antiguos antes de la conexion constante al internet.
+
+- Gusanos: Malware que se copia a si mismo al sistema, utliza la red para coipiarse a si mismo a otros sitemas, tiene mayor capacidad de infeccion.
+El objetivo es replicarse a si mismo hasta sasturar el funcionamiento del sistema
+
+- Troyanos: no causan danios en si mismos, es una estructura utilizada para cargar cosas ocultas como un virus o malware. Generalmente son programas
+sin licencias o craks, puede crear backdoors, puerta trasera para que una persona ajena pueda controlar el sistema de manera remota, puede funcionar
+como un proxy para ocultar ataques o introducir spam a los dispositivos como adwares.
+
+- Spyware: malware que no dania el dispositivo pero roba toda la informacion del sistema, su objetivo es ocultarse para orbar datos como contrasenias, informacion 
+nacaria, entre otros, puede usar el microfono o camara sin autorizacion. Malware como el keylog reconoce las pulsaciones del teclado para robar datos
+como contrasenias entre otros.
+
+- Rootkit: Complejos conjuntos de software quevan dirigidos al framework del dispositivo y tiene acceso al sistema en mode kernel o modo sistema,
+lo que le permite al rootkit realizar cambios al sistema operativo, procesos internos, archivos y cuentas de usuario. Logran esconderse del software
+antivirus.
+
+- Botnes: Robot network, red de robos que es puesto en una red de computadores para se utilizadas todas al mismo tiempo. Se usan para el crimeware
+
+- Ransomware: software de secuestro no se oculta del usuario, son usados para secuestrar la info del usuario par aluego pedir dinero para regresarlos
+
+-----
+
+Fallas y vulnerabilidades:
+
+Una falla, error o bug es un programa o sistema operativo que desencadena un resultado indeseado
+- Heisenbug: incertidumbre, altera o desaparecen su comportamiento al tratar de depurarlos.
+- Bohrbug: un error de sotware inusual que siempre produce falla al reiniciar la operacion que causo la falla
+- Mandelbug: Causa fallas complejas con comportamiento caotico.
+- Schroedinbugs: No aparecen hasta que alguien lee el codigo y descubre que en determinadas circunstancias, el programa podria fallar.
+
+Vulnerabilidad: debilidad o fallo de un sistema informatico que pone en riesgo la integralidad, confidencialidad o disponibilidad de informacion
+Para identificar las posibles vulnerabilidades se puede: Evaluar como esta constituida la red, delimitar quien puede acceder a la informacion,
+probar que las copias de seguridad funcionene, idenficar las partes mas sensibles, realizar auditorias.
