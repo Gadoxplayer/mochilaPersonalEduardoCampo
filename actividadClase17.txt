@@ -1,0 +1,34 @@
+Actividad:
+
+1. Hacer un análisis de la situación actual de cada empresa que nos toque.
+2. Para cada escenario planteado, crear un plan de seguridad
+3. Este plan debe ser de 6 pasos e incluir, seguridad lógica, física, pasiva, activa y controles
+de medida de seguridad, y de vulnerabilidades que podrían explotar los atacantes
+
+Escenario para grupos - 2, 4, 6, 8, 10
+● Empresa ya consolidada que se dedica a brindar servicios informáticos, la mayoría de
+sus empleados trabajan en remoto, pero hay algunos que van on site, necesitan una
+intranet más segura, y la información confidencial de la empresa tiene buena seguridad
+lógica pero muy poca física, aunque igualmente desean tener asesoramiento en
+seguridad lógica, no tienen problemas en invertir dinero pero sus empleados se
+resisten al cambio de nuevas restricciones. Poseen una página web donde brindan sus
+servicios y los clientes pueden contactarse a través de la misma.
+
+---
+1.	Hacer un análisis de la situación actual de cada empresa que nos toque.
+Trabajadores remotos (VPN o máquina virtual)
+Buena seguridad lógica, pero poca seguridad física.
+Empelados no quieren nuevas restricciones y se resisten al cambio
+Contacto con los clientes a través de una página web.
+2.	Para cada escenario planteado, crear un plan de seguridad
+1)	Seguridad lógica: control de acceso.  Sistema de autentificación para la VPN. 
+2)	Para la seguridad física: 
+-	Dispositivos físicos de protección
+-	UPS
+-	Respaldo de datos
+-	Sistemas redundantes
+3)	Medidas de seguridad directivas para garantizar que los trabajadores acepten el cambio y lo vean como algo necesario.
+4)	Seguridad activa: software de seguridad informática para todos los trabajadores
+5)	Seguridad pasiva: copias de seguridad de la información de los datos en todos los dispositivos
+6)	Medidas preventivas: prevención de acciones indebidas (no abrir correos de spam/ extraños) y capacitar a los empleados para que estén al tanto de esto.
+

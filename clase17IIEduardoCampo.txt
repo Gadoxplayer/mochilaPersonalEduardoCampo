@@ -1,0 +1,118 @@
+Clase 17
+
+Seguridad activa y pasiva:
+
+Acciones para proteger la integridad, privacidad de los datos e informacionque se encuentre alojada en un sistema informatico.
+
+Seguridad activa: Los elementos denominados activos contienen informacion, pueden ser dispositivos, servidores, moviles, etc. Estos activos contienen informacion que alguien podria
+vulnerar, obtener, sustituir etc. La seguridad activa protege y evita danios a los datos de un sistema informatico.
+Buenas practicas, como el uso de contrasenias complejas, uso de software de seguridad y encriptamiento de datos hacen parte de las formas de evitar vulneraciones.
+
+Seguridad pasiva: acciones o tecnicas de seguridad para minimizar los danios a sistemas informaticos, estas acciones se ponen en marcha cuando se detecta un malware o amenazas
+similares. Buenas practicas para mejorar la seguridad pasiva es realizar copias de seguridad en el dispositivo o en otros sistemas de hardware, escanear y limpiar continuamente
+los equipos, crear particioes en el disco duro para almacenar archivos o backups diferente al sistema operativo de origen. frente a un ataque, desconectarse de la red. comprobar
+que el antivirus funcione bien.
+
+----
+Medidas de proteccion: 
+Proceso que consiste en una paridad entre un resulktado con otro. Para una seguridad integral, los quipos y software deben implementar controles administrativos y fisicos.
+
+- Seguridad por medidas proactivas: 
+	
+	Directivas: Nos dicen qué podemos o no hacer. Intentan que las actividades de los sistemas se realicen de una manera específica con el fin de que se produzcan ciertos 
+		resultados esperados.
+
+	Disuasivas: Pueden desviar la intención del atacante potencial a un sistema o el uso indebido por parte del personal. Se diferencian con las directivas en que estas 
+		no nos restringen directamente, sino que nos hacen una advertencia, la cual se puede o no tener en cuenta a la hora de ejecutar la acción indebida.
+	
+	Preventivas: Buscan que no se produzca un accidente o cualquier tipo de acción indebida en los sistemas. La diferencia con las disuasivas es que estas buscan informar 
+		y prevenir una acción indebida.
+
+- Seguridad por medidas reactivas:
+	
+	Detectivas: Se basan en la búsqueda de potenciales ataques o peligros a los que puede estar expuesto un sistema informático.
+	
+	Correctivas: Una vez se ha encontrado el riesgo o ha sucedido un incidente que ha puesto en peligro a los datos o información, se activan estas medidas de seguridad. 
+		Su objetivo es solucionar el sistema luego que ha sucedido el desvío.
+
+Auditora:
+Anmalizar de manera exhaustiva y profunda distintas caracteriscas y areas de una organizacion, en informatica, analiza la informacion para que la organizacion trabaje de manera
+eficiente. El auditor plasma todas las oportunidades de mejora y recomendaciones. Usa entrevistas, encuetas, analisis de proces y analisis de codigo como metodos de auditoria.
+Objetivos: Eficiencia - Normativa - Gestion de recursos
+
+----
+Seguridad fisica:
+Tecnicas que resguardan de danios a los equipos donde ce almacenana los archivos de una organizacion. 
+Dispositivos fisicos: Pararrayos, extintores etc
+UPs: Uninterruptable power supply, Es un dispositivo electrónico que almacena energía por medio de una batería interna.
+Respaldo de datos: Es importante saber que los datos son los activos más importantes dentro de una organización, por tal motivo, es de suma importancia el manejo y cuidado de los
+ mismos ya que pueden estar expuestos a muchos factores como hurto, alteración, virus, entre otros. Por tal motivo, se deben realizar copias de seguridad o backups de los datos
+completos e incrementales. El backup es un proceso por el cual se realiza la copia de los datos originales con el fin de prevenir cualquier tipo de pérdida de los mismos.
+Sistemas redundantes: Copia de datos de mayor importancia.
+
+Seguridad Logica:
+La seguridad lógica es un tipo de software que impide que malware o hackers puedan ingresar a nuestra computadora a través de Internet o de una red. Está conformada por un 
+conjunto de procesos que se encargan de garantizar la seguridad de los datos y sistemas, además controlan el acceso a los mismos.
+Incluye aspectos como:
+- Control de acceso (limitar el acceso a pernoas no autorizadas) - Cifrado de datos (altoritmos cifrados con clave que transforman un mensaje o la informacion)
+- Antivirus (detectar y eliminar malware)- Firewalls (impide que el malware o hackers puedan ingrear al sistema por internet o una red)
+
+----
+Seguridad en internet:
+
+Ataques de denegacion de servicios (DoS - DDoS): (consumen ancho de banda, alteran tablas de enrutamiento, provocan fallas)
+
+DoS ataque de denegacion:
+La dimension de disponibilidad se refiere al acceso de una persona al a informacion en el momento, tiempo y forma que la necesite. La denefacion consiste en la interrupcion del 
+acceso a los servicios por parte de los usuarios legitimos.
+El DoS sucede cuando una gran cantidad de peticiones se producen a una sola maquina o direccion IP, saturando los puertos y sobrepasando la capacidad de respuesta. empieza a rechazar
+peticiones, denefgando el servicio. El DoS tambien puede ocurrir en una CPU o memoria. Ocurre por la saturacion de recursos.
+
+DDoS ataque de denegacion de servicio distribuido: 
+Ocurren una gran cantidad de peticiones al servicio, pero este tipo ocurre desde varios puntos o direcciones ips (a diferencia del DoS), saturando el puerto de destino, saturan 
+y sobrepasando la capacidad de respuesta.
+
+Bot y Botnes:
+El bot es una aplicacion de software que realiza las tareas simples y repetitivas correspondientes al sitio de internet.
+Botnet: dispositivos conectados al internet con seguridad comprometida por un atacante para fectuar un DoS.
+
+Computadora Zombie: Pc infectada por un virus, toryano o gusano, usada de forma remota por un tercero para realizar ataques maliciosos, entre ellos DDoS;
+
+----
+Hacking y Cracking
+Un hacker es una persona a la cual le apasiona el conocimiento, descubrir o aprender nuevas cosas e indagar más sobre ellas. Toda aquella persona que hackea cualquier tipo de 
+sistema descubre sus vulnerabilidades con el objetivo de poder encontrar alguna herramienta que la minimice o suprima —en el caso de un white hat— o utilizar esta vulnerabilidad 
+a su favor —en el caso de un black hat—
+
+Tipos de hacker
+Sombrero blanco (white hats): utilizan los conocimientos en informática y seguridad informática con el fin de defender los sistemas de información.
+Sombrero gris (gray hats): tienen conocimientos tanto de la parte defensiva como ofensiva y pueden trabajar en cualquiera de los ámbitos.
+Sombrero negro (black hats): tienen conocimientos informáticos y recurren a hacer actividades maliciosas o ilegales. También conocidos como crackers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

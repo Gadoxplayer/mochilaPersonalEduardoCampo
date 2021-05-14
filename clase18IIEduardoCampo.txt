@@ -1,0 +1,87 @@
+Fraude y delito informático
+Un código ético constituye una declaración expresa de los valores y principios que deben guiar la 
+conducta de todos los profesionales que integran y colaboran con una Asociación para el desarrollo 
+responsable de su actividad profesional, tanto en sus relaciones con sus empleadores, empleados, 
+clientes, proveedores, instituciones públicas y privadas, colaboradores externos y la sociedad en 
+general. Generalmente se decide adoptar y promover el uso del Código de Ética y Práctica Profesional.
+
+Cifra Negra: Cantidad de numeros de delitos que no han llegado a ser descubiertos o condenados.
+
+Que se puede denunciar:
+Injurias y calumnias, epxlotacion sexual de menores, exhibiciones obcenas, grooming, amenazas, sustraccion
+alteracion, destruccion o inutilizacion de evidencia digital, difusion no autorizada de fotos o videos
+intimos. Interceptacion a comunicaciones electronicas, accesos ilicitos a sistemas informaticos, publicaciones
+abusivas, vilacion de secretos, suplantacion, hostigamiento digital. Extorsion, ransomware, estafas, danios 
+informaticos, interrupcion de comunicacioens, delitos de propiedad intelectual. 
+
+----
+Los datos personales:
+Pueden ser de tipo publicos, privados, semiprivados o sensibles
+Para la proteccion de estos existe el "Habeas data":
+Derecho a tener claridad de donde se encuentran los datos, quien los custodia y hasta cuando, quien tiene accesos a ellos,
+como defenderlos, como identificarse en bases de datos.
+
+----
+¿Qué es la industria del software?
+La industria del software es la industria que involucra la investigación, desarrollo, distribución y 
+comercialización de software.
+
+¿En qué forma, este sector, abre nuevas oportunidades para el desarrollo económico y social de América
+ Latina? En una economía global cada vez más fundada en la información y el conocimiento, el software
+ es una herramienta decisiva para aumentar la productividad porque incorpora tecnologías y soluciones
+para los tipos de problemas más variados. La producción de software y servicios es además una actividad
+ económica cada vez más relevante, capaz de crear empleos calificados y generar divisas con la exportación
+ de productos y servicios a distancia. Ello es posible a partir de los avances tecnológicos en las 
+áreas de comunicaciones y arquitectura de sistemas de la última década.
+
+----
+Propiedad intelectual:
+Se trata de un contrato que existe entre aquel que posee los derechos de autoría y la entidad o persona 
+que está adquiriéndolo.
+Licencia de software libre: le ofrece al consumidor el codigo fuente original, la facultad de usarlo,
+modificarlo y distribuirlo. Puede o no ser gratuito. Se regulan por el copuleft.
+El copyleft es una version del copuright pero para licencias de software liubre, proporciona un metodo
+para que el osftware siempre siga siendo libre.
+Licencia GPL: Licencia de derecho de autor, garantiza la libertad de usar, estudiar, compartir, copiar
+y modificar el software.
+BSD: Berkeley Software Distribution, permite el uso de codigo fuente en software nolibre.
+MLP: Mozilla public license, es un hibrido entre BSD y GNU, deja abierto el camino para la reutilizacion
+no libre de software
+El Copyright significa que todos los derechos estan reservados, significa que solo su autor puede utilizar
+modificar y distribuir su contenido.
+
+Software libre:
+software donde los usuarios tienen la libertad de ejecutar, copiar, distribuir, estudiar, modificar 
+y mejorar el software.
+Las cuatro libertades esenciales
+- Ejecutar el programa como se desee, con cualquier propósito.
+- Estudiar cómo funciona el programa y cambiarlo para que haga lo que se desee. El acceso al código 
+fuente es una condición necesaria para ello.
+- Redistribuir copias para ayudar a otros.
+- Distribuir copias de sus versiones modificadas a terceros. Esto le permite ofrecer a toda la 
+comunidad la oportunidad de beneficiarse de las modificaciones. El acceso al código fuente es una 
+condición necesaria para ello.
+
+Open source:
+Un software de código abierto u open source es un software en el que cualquier persona tiene acceso 
+a las instrucciones escritas de programación del mismo o código fuente.
+El software open source se desarrolla de manera descentralizada y colaborativa, así que depende de la 
+revisión entre compañeros y la producción de la comunidad. 
+
+Software propietario:
+El software propietario o privativo​ es el software del cual no existe una forma libre de acceso a su 
+código fuente, el cual solo se encuentra a disposición de su desarrollador y no se permite su libre 
+modificación, adaptación o incluso lectura por parte de terceros
+
+
+
+
+
+
+
+
+
+
+
+
+
